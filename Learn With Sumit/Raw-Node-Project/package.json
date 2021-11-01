@@ -4,14 +4,15 @@
   "description": "Its a Node Practice Project",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=staging nodemon index",
+    "start": "set NODE_ENV=staging & nodemon index",
     "production": "NODE_ENV=production nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Md_RH_Maurf",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
   },
   "devDependencies": {
     "eslint": "^8.1.0"
