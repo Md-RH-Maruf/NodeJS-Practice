@@ -3,8 +3,8 @@ const {handleReqRes} = require('./helpers/handleReqRes');
 const environment = require('./helpers/environments');
 const data = require('./lib/data');
 
-const app = {}
 
+const app = {}
 
 app.createServer = () => {
     const server = http.createServer(app.handleReqRes);
